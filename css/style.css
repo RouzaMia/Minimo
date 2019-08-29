@@ -1,0 +1,244 @@
+/*font-family: 'Playfair Display', serif;*/
+
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+  
+body{
+	margin:0;
+	padding:0;
+	font-family:'Playfair Display',serif; /*(most used font)*/
+	color:#626262; /*(most used color of font)*/
+}
+/*header start*/
+header{
+	padding: 25px 0;
+
+
+}
+.wrapper{
+	
+	width:90%;
+	margin:0 auto; 
+	overflow: hidden;
+}
+.logo{
+   width: 13%;
+   float:left;
+   margin-top: 8px;
+}
+.logo a img{ 
+	    width: 100%;
+	} 
+.menu {
+	width: 65%;
+    float:right;
+    
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	display: block;
+	padding: 0 60px;
+	color:#626262;
+	transition: 0.5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #000000;
+	} /*(pseudo selector)*/
+/*header end*/
+/*banner start*/
+.banner{
+	
+}
+.banner-img{
+	width: 100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding:60px 0;  
+} 
+.wrapper2{
+	width: 80%;
+    margin: 0 auto;
+}
+.perfect{}
+.common{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color:#b4ad9e;
+	text-transform: uppercase;
+}
+.p_h1{
+	font-weight: 400;
+	font-size: 30px;
+}
+.p_content{
+	font-size: 14px; 
+	line-height: 24px;
+    word-spacing: 1.5px;
+    margin-bottom: 35px;
+}
+/*getaway end*/
+/*blog start*/
+.blog{}
+.blog_wrapper{
+	overflow: hidden;
+}
+.single{
+	width: 47%;
+	
+	float: left;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+
+}
+.single img{
+	width: 100%;
+}
+.b_h1{
+	font-weight: 400;
+	font-size: 30px;}
+
+/*blog end*/
+ 
+ /*newsletter start*/
+.newsletter{
+	padding: 50px 0;
+	
+}
+.container4{
+	width: 60%;
+	margin:0 auto;
+	}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.for_form{
+	width: 350px;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+	position: relative;
+
+}
+.for_form input{
+	border: none;
+	background:transparent;
+	border-bottom: 1px solid black;
+	width: 280px;
+	font-size: 18px;
+	padding: 10px 50px 10px 10px;
+	outline: none;
+}
+.for_form button{
+	border: none;
+	background: none;
+	position: absolute;
+	top:7px;
+	right:0px;
+
+}
+
+
+/*newsletter end*/  
+/*blog2 start*/
+.blog2{
+	padding: 90px 0;
+}
+ /*blog2 end*/
+ /*button start*/
+ .btn{
+
+ }
+ .wrapper3{
+ 	text-align:center;
+ 	padding: 100px 0px 1000px 0px; 
+ }
+ .wrapper3 button{
+ 	  font-family: 'Playfair Display', serif;
+ 	padding: 25px 50px;
+ 	font-size: 24px;
+ 	border: none;
+ 	border:1px solid #626262;
+ 	color:#626262;
+ 	background: transparent;
+ 	transition: .5s;
+}
+.wrapper3 button:hover{
+   font-family: 'Playfair Display', serif;
+   color:white;
+   background-color: #626262;
+   border:1px solid #ffffff;
+}
+
+/*button end*/
+/*footer start*/
+.footer_content{
+	
+	width: 25%;
+    float:left;
+    
+}
+.footer_content ul{
+	float: left;
+}
+.footer_content ul li{
+	list-style: none;
+	float: left;
+}
+.footer_content ul li a{
+		font-family:'Playfair Display',serif;
+		font-weight: 300;
+	font-size: 14px;
+	text-decoration: none;
+    display: block;
+	padding: 7px;
+	color: #000000;
+}
+.links{
+	width: 19%;
+    float:right;
+    }
+    .menu ul{
+	float: right;
+}
+.links ul li{
+	list-style: none;
+	float: left;
+}
+.links ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	padding: 7px;
+	color:#626262;
+
+}
+.links ul li a b{
+	font-size: 15px;
+   color: #000000;
+}
+.links ul li:last-child a{
+	padding-right: 0;
+}
+
+
+/*footer end*/
+
